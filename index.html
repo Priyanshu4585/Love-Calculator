@@ -65,6 +65,7 @@
             var name1 = document.getElementById("name1").value;
             var name2 = document.getElementById("name2").value;
             var about = document.getElementById("about");
+            var note = document.getElementById("note");
 
             // Ensure both names are provided
             if (name1 === "" || name2 === "") {
@@ -84,7 +85,8 @@
             }else{
                 about.innerHTML="Wow! A love percentage of "+lovePercentage+"% means you're practically a perfect match! It’s clear that your bond is deep, and love is in full bloom. Keep nurturing your relationship with trust, communication, and shared joy. It looks like you're destined for great things together!"
             }
-
+            note.innerHTML =
+            "(Note : If the love % is changing that means that love between you is fluctuating there is no problem with my love Calculator ☺ )";
 
 
             // Display the result
